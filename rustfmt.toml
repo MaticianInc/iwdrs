@@ -1,0 +1,5 @@
+# Fork-only: pin the default style this tree is formatted with (upstream CI
+# enforces default rustfmt), so consumers vendoring this repo inside a larger
+# workspace don't apply their own config to it via nearest-config lookup.
+edition = "2024"
+style_edition = "2024"
