@@ -20,4 +20,3 @@ uuid = { version = "1", features = ["v4"] }
 thiserror = "2.0.17"
 strum = { version = "0.28.0", features = ["derive"] }
 futures-lite = "2.6.1"
-async-lock = { version = "3.4.2", default-features = false }
